@@ -1,0 +1,26 @@
+.left-options {
+  display: flex;
+  border-right: 2px solid whitesmoke;
+}
+
+.right-options {
+  display: flex;
+  align-items: center;
+}
+
+.try-premium-btn > p {
+  text-align: center;
+  font-weight: lighter;
+  color: brown;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.try-premium-btn > p:hover {
+  text-decoration: underline;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}

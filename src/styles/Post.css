@@ -1,0 +1,13 @@
+.post__main {
+  width: 100%;
+  padding: 0.5em;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.post__header {
+}

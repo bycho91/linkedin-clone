@@ -1,0 +1,148 @@
+.sidebartop {
+  border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1em 0.7em;
+}
+
+.sidebartop:nth-child(1) {
+  border: none;
+}
+
+.sidebartop:last-child {
+  flex-direction: row;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.title {
+  font-weight: lighter;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1em;
+}
+
+.heading-image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.heading-image > img {
+  width: 100%;
+  height: 55px;
+  object-fit: cover;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.stat > a {
+  color: #0a66c2;
+  font-weight: bold;
+}
+
+.sidebartop__premium > p {
+  font-size: 0.7rem;
+  color: gray;
+  margin-bottom: 0.2em;
+}
+
+.try-premium {
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: gray;
+  cursor: pointer;
+}
+
+.sidebartop__premium:hover {
+  color: black;
+  background: whitesmoke;
+  cursor: pointer;
+}
+
+.try-premium > img {
+  width: 15px;
+  height: 15px;
+  margin-right: 0.3em;
+}
+
+.sidebartop__items {
+  align-items: center;
+  color: gray;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.sidebartop__items:hover {
+  color: black;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/* SIDEBAR BOTTOM */
+
+.sidebarbottom {
+  display: flex;
+  padding: 1em 0.7em;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebarbottom > p {
+  color: gray;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.sidebarbottom > .item {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.item > h4 {
+  font-size: 0.75rem;
+  margin-left: 0.3em;
+  font-weight: 500;
+}
+
+.discover-more {
+  text-align: center;
+  padding: 0.6em 0;
+  border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+  color: gray;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.discover-more:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+  color: black;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.hover-item:hover {
+  background: whitesmoke;
+  color: black;
+  cursor: pointer;
+  border-radius: 6px;
+}

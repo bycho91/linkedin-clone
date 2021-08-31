@@ -1,0 +1,17 @@
+.inputOption__main {
+  display: flex;
+  align-items: center;
+  padding: 1em 0.3em;
+  margin: 0.2em 0;
+}
+
+.inputOption__main:hover {
+  background: whitesmoke;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+h3 {
+  margin-left: 0.3em;
+  font-weight: 500;
+}
